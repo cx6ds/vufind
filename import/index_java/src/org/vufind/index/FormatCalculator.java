@@ -290,7 +290,7 @@ public class FormatCalculator
                             return isOnline ? "eJournal" : "Journal";
                         default: break;
                     }
-                } 
+                }
                 // Default to serial even if 008 is missing (but use eJournal for online things)
                 if (!isConferenceProceeding(record)) {
                     return isOnline ? "eJournal" : "Serial";
